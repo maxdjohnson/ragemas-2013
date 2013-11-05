@@ -1,0 +1,75 @@
+
+html, body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(26, 30, 35, 1.0);
+    background-image: url(img/ragemas_img_bg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.brand {
+    display: block;
+    position: absolute;
+    width: 184px;
+    height: 72px;
+    margin: 0;
+    padding: 0;
+}
+.brand img {
+    margin-left: 32px;
+    margin-top: 18px;
+}
+
+.nav {
+    float:right;
+    margin: 0;
+
+}
+.nav li a {
+    line-height: 52px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col60 {
+    position: absolute;
+    top: 72px;
+    width: 60%;
+}
+.col40 {
+    position: absolute;
+    top: 72px;
+    width: 40%;
+    margin-left: 60%;
+}
+    
+
+/*
+
+ul.nav {
+    display: block;
+    width: 100%;
+    height: 72px;
+    float: right;
+}
+ul.nav li {
+    display: block;
+    line-height: 72px;
+}
+*/
