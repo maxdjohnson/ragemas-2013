@@ -77,9 +77,18 @@ a:active {
     font-size: 12pt;
 }
 
-.nav li.join a {
+.nav li.join a:link {
     color: #d12d2d;
     font-weight: 700;
+}
+.nav li.join a:visited {
+    color: #d12d2d;
+}
+.nav li.join a:hover {
+    color: #ff3636;
+}
+.nav li.join a:active {
+    color: #ff3636;
 }
 
 .col60 {
