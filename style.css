@@ -8,6 +8,7 @@ body {
     background-image: url(img/ragemas_img_bg.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
+    background-position: center top;
     font-family: "Raleway";
     font-weight: 400;
     color: white;
@@ -263,6 +264,9 @@ a:active {
     }
     .container-promo {
         margin-top: 60px;
+    }
+    body {
+        background-size: 200% auto;
     }
 }
 @media only screen and (max-width: 510px) {
