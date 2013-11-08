@@ -1,6 +1,13 @@
 html, body {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: rgba(26, 30, 35, 1.0);
+    background-image: url(img/ragemas_img_bg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     font-family: "Raleway";
     font-weight: 400;
     color: white;
@@ -20,19 +27,27 @@ a:active {
     color: white;
 }
 
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 72px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:72px;
+    width: 100%;
+}
+
 .navbar-custom {
     background-color: rgba(0, 0, 0, 0.4);
     height: 72px;
 }
 
 .container {
-    background-color: rgba(26, 30, 35, 1.0);
-    background-image: url(img/ragemas_img_bg.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .brand {
@@ -59,6 +74,7 @@ a:active {
     line-height: 72px;
     padding-left: 16px;
     padding-right: 32px;
+    font-size: 12pt;
 }
 
 .nav li.join a {
@@ -82,6 +98,7 @@ a:active {
 .tagline {
     display: block;
     width: 580px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 88px;
@@ -138,7 +155,12 @@ a:active {
 .footer {
     padding-top: 80px;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    color: lightgrey;
+    padding-bottom: 20px;
 }
 
 .btn-join {
@@ -217,6 +239,28 @@ a:active {
     padding-left: 30px;
     padding-right: 30px;
 } 
+
+@media only screen and (max-width: 767px) {
+    .col60 {
+        width: 100%;
+        float: none;
+    }
+    .tagline {
+        margin-top: 60px;
+    }
+    .col40 {
+        width: 100%;
+        float: none;
+    }
+    .container-promo {
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width: 510px) {
+    li.story, li.details {
+        display: none;
+    }
+}
 
 
 /*
