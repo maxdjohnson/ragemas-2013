@@ -271,7 +271,7 @@ a:active {
     }
 }
 @media only screen and (max-width: 510px) {
-    li.story, li.details {
+    li.story, li.event-details {
         display: none;
     }
 }
