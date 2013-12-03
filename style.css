@@ -6,10 +6,10 @@ html, body {
 body {
     background-color: rgba(26, 30, 35, 1.0);
     background-image: url(img/ragemas_img_bg.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     font-family: "Raleway";
@@ -68,56 +68,125 @@ a:active {
 }
 
 .tag-wrapper {
-    padding-left: 88px;
-    padding-top: 88px;
+    padding: 88px;
+    overflow: hidden;
 }
-    
-.tagline {
-}
+  .tag-wrapper>img:nth-child(odd){
+    float: left;
+  }
+
+  .tag-wrapper>img:nth-child(even){
+    float: right;
+    padding-top: 40px;
+    margin-top: 123px;
+    width: 550px;
+  }
 
 .details {
     font-size: 10pt;
     text-align: right;
 }
 
-.details ul, .details img {
-    float: right;
+.details ul {
+  float: left;
 }
+
+.details img {
+  float: right;
+}
+
 .details img {
     margin-left: 30px;
 }
 
 .footer {
     padding-top: 80px;
-    text-align: center;
     padding-bottom: 20px;
+    overflow: auto;
 }
 
 .footer p {
     color: lightgrey;
     padding-bottom: 20px;
+    float: left;
 }
+
+.col60 {
+  float: left;
+  width: 60%;
+  padding: 20px 20px 20px 40px;
+}
+
+.col40 {
+  float: left;
+  width: 32%;
+  padding: 5px 20px;
+}
+
+.sponsors {
+  float: left;
+  
+}
+
+.sponsors img {
+  margin: -22px 0 0 40px;
+  padding: 10px 0; 
+}
+
 
 #cta {
-	position: absolute;
-	bottom: 8px;
-	right: 62px;
-	z-index: 10;
-	cursor: pointer;
-	opacity: 0.81;
-	-webkit-transition: opacity 0.3s ease-in-out;
-	-moz-transition: opacity 0.3s ease-in-out;
-	transition: opacity 0.3s ease-in-out;
+  height: 200px;
+  width: 150px;
+  float: left;
+  padding: 0 0 0 30px;
+  margin: -80px 0 0 0;
 }
-#cta:hover {
-	opacity: 1;
+  #cta-nade {
+    z-index: 10;
+    margin: -54px 0 0 0;
+    opacity: 0.81;
+    
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+  }
+    #cta-nade:hover{
+      opacity: 1;
+    }
+
+  #cta-pin {
+    position: relative;
+    left: 25px;
+    z-index: 1;
+  }
+
+
+/*#cta {
+  position: fixed;
+  bottom: 8px;
+  right: 35px;
+  margin-top: -50px;
+  
+  z-index: 10;
+  cursor: pointer;
+  opacity: 0.81;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
+  #cta:hover {
+    opacity: 1;
+  }
 
 #cta-pin {
-	position: absolute;
-	bottom: 100px;
-	right: 103px;
-	z-index: 1;
+  position: fixed;
+  left: 68px;
+  z-index: 1;
+}*/
+
+.float {
+  float: left;
 }
 
 @media only screen and (max-width: 767px) {

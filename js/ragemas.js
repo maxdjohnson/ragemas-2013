@@ -15,7 +15,8 @@ $(document).ready(function() {
                         'url('+bg_imgs[current_bg]+') no-repeat center top fixed');
     });
     */
-    
+   
+   /* 
     // Animate our grenade pin
     $('div#cta').hover(
       function () {
@@ -53,7 +54,7 @@ $(document).ready(function() {
           });
         $('div#shotglass').css('opacity', '0.65');
       });
-
+*/
 });
 
 /*
